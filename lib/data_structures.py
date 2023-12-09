@@ -94,7 +94,7 @@ print(result)
 def create_spicy_food(spicy_foods, spicy_food):
     spicy_foods.append(spicy_food)
     return spicy_foods
-new_spicy_food = {"name": "Jerk Chicken", "cuisine": "Jamaican", "heat_level": 8}
+new_spicy_food = {"name": "Mild Chicken", "cuisine": "Canada", "heat_level": 8}
 
 updated_spicy_foods = create_spicy_food(spicy_foods, new_spicy_food)
 print(updated_spicy_foods)
